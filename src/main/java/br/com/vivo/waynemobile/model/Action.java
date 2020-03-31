@@ -2,14 +2,14 @@ package br.com.vivo.waynemobile.model;
 
 public class Action {
 	
-	private String usedData;
+	private Double usedData;
 	
 	private String serviceType;
 	
-	public String getUsedData() {
+	public Double getUsedData() {
 		return usedData;
 	}
-	public void setUsedData(String usedData) {
+	public void setUsedData(Double usedData) {
 		this.usedData = usedData;
 	}
 	public String getServiceType() {
